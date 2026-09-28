@@ -3,6 +3,7 @@ import pandas as pd
 from core.auth import AuthManager
 from core.crypto import CryptoEngine
 from core.ledger import AuditLedger
+from phe import paillier
 from cryptography.hazmat.primitives.asymmetric import rsa, padding
 
 # Initialize System Components in Streamlit State
